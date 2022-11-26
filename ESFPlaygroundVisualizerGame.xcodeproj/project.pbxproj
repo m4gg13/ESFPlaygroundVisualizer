@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1852BA9292A93C700EF1DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BA8292A93C700EF1DAD /* AppDelegate.swift */; };
+		A1852BAB292A93C700EF1DAD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1852BAA292A93C700EF1DAD /* GameScene.sks */; };
+		A1852BAD292A93C700EF1DAD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1852BAC292A93C700EF1DAD /* Actions.sks */; };
+		A1852BAF292A93C700EF1DAD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BAE292A93C700EF1DAD /* GameScene.swift */; };
+		A1852BB1292A93C700EF1DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BB0292A93C700EF1DAD /* ViewController.swift */; };
+		A1852BB3292A93CA00EF1DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1852BB2292A93CA00EF1DAD /* Assets.xcassets */; };
+		A1852BB6292A93CA00EF1DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1852BB4292A93CA00EF1DAD /* Main.storyboard */; };
+		A1852BC1292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BC0292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift */; };
+		A1852BCB292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BCA292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.swift */; };
+		A1852BCD292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BCC292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITestsLaunchTests.swift */; };
+		A1852BDB292A963600EF1DAD /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BDA292A963600EF1DAD /* LinkedListNode.swift */; };
+		A1852BDE292A96E700EF1DAD /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BDD292A96E700EF1DAD /* Process.swift */; };
+		A1852BE0292A977A00EF1DAD /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BDF292A977A00EF1DAD /* LinkedList.swift */; };
+		A1852BE2292ABAB800EF1DAD /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BE1292ABAB800EF1DAD /* Tree.swift */; };
+		A1852BE5292B21D600EF1DAD /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BE4292B21D600EF1DAD /* LinkedListTests.swift */; };
+		A1852BE7292B25B100EF1DAD /* TreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BE6292B25B100EF1DAD /* TreeTests.swift */; };
+		A1852BE9292B286700EF1DAD /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BE8292B286700EF1DAD /* TreeNode.swift */; };
+		A1852BED292C4D0700EF1DAD /* TreeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BEC292C4D0700EF1DAD /* TreeGameScene.swift */; };
+		A1852BEF292C4DA000EF1DAD /* LinkedListGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BEE292C4DA000EF1DAD /* LinkedListGameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1852BBD292A93CB00EF1DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1852B9D292A93C700EF1DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1852BA4292A93C700EF1DAD;
+			remoteInfo = ESFPlaygroundVisualizerGame;
+		};
+		A1852BC7292A93CB00EF1DAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1852B9D292A93C700EF1DAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1852BA4292A93C700EF1DAD;
+			remoteInfo = ESFPlaygroundVisualizerGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1852BA5292A93C700EF1DAD /* ESFPlaygroundVisualizerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESFPlaygroundVisualizerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1852BA8292A93C700EF1DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1852BAA292A93C700EF1DAD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A1852BAC292A93C700EF1DAD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		A1852BAE292A93C700EF1DAD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A1852BB0292A93C700EF1DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1852BB2292A93CA00EF1DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1852BB5292A93CA00EF1DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1852BB7292A93CA00EF1DAD /* ESFPlaygroundVisualizerGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ESFPlaygroundVisualizerGame.entitlements; sourceTree = "<group>"; };
+		A1852BBC292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESFPlaygroundVisualizerGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1852BC0292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFPlaygroundVisualizerGameTests.swift; sourceTree = "<group>"; };
+		A1852BC6292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESFPlaygroundVisualizerGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1852BCA292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFPlaygroundVisualizerGameUITests.swift; sourceTree = "<group>"; };
+		A1852BCC292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESFPlaygroundVisualizerGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1852BDA292A963600EF1DAD /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		A1852BDD292A96E700EF1DAD /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		A1852BDF292A977A00EF1DAD /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		A1852BE1292ABAB800EF1DAD /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		A1852BE4292B21D600EF1DAD /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
+		A1852BE6292B25B100EF1DAD /* TreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeTests.swift; sourceTree = "<group>"; };
+		A1852BE8292B286700EF1DAD /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		A1852BEC292C4D0700EF1DAD /* TreeGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeGameScene.swift; sourceTree = "<group>"; };
+		A1852BEE292C4DA000EF1DAD /* LinkedListGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListGameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1852BA2292A93C700EF1DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1852BB9292A93CB00EF1DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1852BC3292A93CB00EF1DAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1852B9C292A93C700EF1DAD = {
+			isa = PBXGroup;
+			children = (
+				A1852BA7292A93C700EF1DAD /* ESFPlaygroundVisualizerGame */,
+				A1852BBF292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests */,
+				A1852BC9292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests */,
+				A1852BA6292A93C700EF1DAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1852BA6292A93C700EF1DAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BA5292A93C700EF1DAD /* ESFPlaygroundVisualizerGame.app */,
+				A1852BBC292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.xctest */,
+				A1852BC6292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1852BA7292A93C700EF1DAD /* ESFPlaygroundVisualizerGame */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BDC292A96BE00EF1DAD /* Data */,
+				A1852BD9292A961900EF1DAD /* Structure */,
+				A1852BA8292A93C700EF1DAD /* AppDelegate.swift */,
+				A1852BAA292A93C700EF1DAD /* GameScene.sks */,
+				A1852BAC292A93C700EF1DAD /* Actions.sks */,
+				A1852BAE292A93C700EF1DAD /* GameScene.swift */,
+				A1852BB0292A93C700EF1DAD /* ViewController.swift */,
+				A1852BB2292A93CA00EF1DAD /* Assets.xcassets */,
+				A1852BB4292A93CA00EF1DAD /* Main.storyboard */,
+				A1852BB7292A93CA00EF1DAD /* ESFPlaygroundVisualizerGame.entitlements */,
+			);
+			path = ESFPlaygroundVisualizerGame;
+			sourceTree = "<group>";
+		};
+		A1852BBF292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BE3292B21BD00EF1DAD /* StructureTests */,
+				A1852BC0292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift */,
+			);
+			path = ESFPlaygroundVisualizerGameTests;
+			sourceTree = "<group>";
+		};
+		A1852BC9292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BCA292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.swift */,
+				A1852BCC292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITestsLaunchTests.swift */,
+			);
+			path = ESFPlaygroundVisualizerGameUITests;
+			sourceTree = "<group>";
+		};
+		A1852BD9292A961900EF1DAD /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BEB292C4CC300EF1DAD /* Tree */,
+				A1852BEA292C4CBC00EF1DAD /* LinkedList */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		A1852BDC292A96BE00EF1DAD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BDD292A96E700EF1DAD /* Process.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A1852BE3292B21BD00EF1DAD /* StructureTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BE4292B21D600EF1DAD /* LinkedListTests.swift */,
+				A1852BE6292B25B100EF1DAD /* TreeTests.swift */,
+			);
+			path = StructureTests;
+			sourceTree = "<group>";
+		};
+		A1852BEA292C4CBC00EF1DAD /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BDA292A963600EF1DAD /* LinkedListNode.swift */,
+				A1852BDF292A977A00EF1DAD /* LinkedList.swift */,
+				A1852BEE292C4DA000EF1DAD /* LinkedListGameScene.swift */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		A1852BEB292C4CC300EF1DAD /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A1852BE8292B286700EF1DAD /* TreeNode.swift */,
+				A1852BE1292ABAB800EF1DAD /* Tree.swift */,
+				A1852BEC292C4D0700EF1DAD /* TreeGameScene.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1852BA4292A93C700EF1DAD /* ESFPlaygroundVisualizerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1852BD0292A93CB00EF1DAD /* Build configuration list for PBXNativeTarget "ESFPlaygroundVisualizerGame" */;
+			buildPhases = (
+				A1852BA1292A93C700EF1DAD /* Sources */,
+				A1852BA2292A93C700EF1DAD /* Frameworks */,
+				A1852BA3292A93C700EF1DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESFPlaygroundVisualizerGame;
+			productName = ESFPlaygroundVisualizerGame;
+			productReference = A1852BA5292A93C700EF1DAD /* ESFPlaygroundVisualizerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1852BBB292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1852BD3292A93CB00EF1DAD /* Build configuration list for PBXNativeTarget "ESFPlaygroundVisualizerGameTests" */;
+			buildPhases = (
+				A1852BB8292A93CB00EF1DAD /* Sources */,
+				A1852BB9292A93CB00EF1DAD /* Frameworks */,
+				A1852BBA292A93CB00EF1DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1852BBE292A93CB00EF1DAD /* PBXTargetDependency */,
+			);
+			name = ESFPlaygroundVisualizerGameTests;
+			productName = ESFPlaygroundVisualizerGameTests;
+			productReference = A1852BBC292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1852BC5292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1852BD6292A93CB00EF1DAD /* Build configuration list for PBXNativeTarget "ESFPlaygroundVisualizerGameUITests" */;
+			buildPhases = (
+				A1852BC2292A93CB00EF1DAD /* Sources */,
+				A1852BC3292A93CB00EF1DAD /* Frameworks */,
+				A1852BC4292A93CB00EF1DAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1852BC8292A93CB00EF1DAD /* PBXTargetDependency */,
+			);
+			name = ESFPlaygroundVisualizerGameUITests;
+			productName = ESFPlaygroundVisualizerGameUITests;
+			productReference = A1852BC6292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1852B9D292A93C700EF1DAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A1852BA4292A93C700EF1DAD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A1852BBB292A93CB00EF1DAD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A1852BA4292A93C700EF1DAD;
+					};
+					A1852BC5292A93CB00EF1DAD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A1852BA4292A93C700EF1DAD;
+					};
+				};
+			};
+			buildConfigurationList = A1852BA0292A93C700EF1DAD /* Build configuration list for PBXProject "ESFPlaygroundVisualizerGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1852B9C292A93C700EF1DAD;
+			productRefGroup = A1852BA6292A93C700EF1DAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1852BA4292A93C700EF1DAD /* ESFPlaygroundVisualizerGame */,
+				A1852BBB292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests */,
+				A1852BC5292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1852BA3292A93C700EF1DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1852BAB292A93C700EF1DAD /* GameScene.sks in Resources */,
+				A1852BB3292A93CA00EF1DAD /* Assets.xcassets in Resources */,
+				A1852BAD292A93C700EF1DAD /* Actions.sks in Resources */,
+				A1852BB6292A93CA00EF1DAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1852BBA292A93CB00EF1DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1852BC4292A93CB00EF1DAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1852BA1292A93C700EF1DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1852BB1292A93C700EF1DAD /* ViewController.swift in Sources */,
+				A1852BE0292A977A00EF1DAD /* LinkedList.swift in Sources */,
+				A1852BDE292A96E700EF1DAD /* Process.swift in Sources */,
+				A1852BEF292C4DA000EF1DAD /* LinkedListGameScene.swift in Sources */,
+				A1852BAF292A93C700EF1DAD /* GameScene.swift in Sources */,
+				A1852BA9292A93C700EF1DAD /* AppDelegate.swift in Sources */,
+				A1852BED292C4D0700EF1DAD /* TreeGameScene.swift in Sources */,
+				A1852BE2292ABAB800EF1DAD /* Tree.swift in Sources */,
+				A1852BDB292A963600EF1DAD /* LinkedListNode.swift in Sources */,
+				A1852BE9292B286700EF1DAD /* TreeNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1852BB8292A93CB00EF1DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1852BE7292B25B100EF1DAD /* TreeTests.swift in Sources */,
+				A1852BE5292B21D600EF1DAD /* LinkedListTests.swift in Sources */,
+				A1852BC1292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1852BC2292A93CB00EF1DAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1852BCD292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITestsLaunchTests.swift in Sources */,
+				A1852BCB292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1852BBE292A93CB00EF1DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1852BA4292A93C700EF1DAD /* ESFPlaygroundVisualizerGame */;
+			targetProxy = A1852BBD292A93CB00EF1DAD /* PBXContainerItemProxy */;
+		};
+		A1852BC8292A93CB00EF1DAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1852BA4292A93C700EF1DAD /* ESFPlaygroundVisualizerGame */;
+			targetProxy = A1852BC7292A93CB00EF1DAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1852BB4292A93CA00EF1DAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1852BB5292A93CA00EF1DAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1852BCE292A93CB00EF1DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1852BCF292A93CB00EF1DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1852BD1292A93CB00EF1DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ESFPlaygroundVisualizerGame/ESFPlaygroundVisualizerGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maggiezirnhelt.ESFPlaygroundVisualizerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1852BD2292A93CB00EF1DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ESFPlaygroundVisualizerGame/ESFPlaygroundVisualizerGame.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maggiezirnhelt.ESFPlaygroundVisualizerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1852BD4292A93CB00EF1DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maggiezirnhelt.ESFPlaygroundVisualizerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESFPlaygroundVisualizerGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ESFPlaygroundVisualizerGame";
+			};
+			name = Debug;
+		};
+		A1852BD5292A93CB00EF1DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maggiezirnhelt.ESFPlaygroundVisualizerGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESFPlaygroundVisualizerGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ESFPlaygroundVisualizerGame";
+			};
+			name = Release;
+		};
+		A1852BD7292A93CB00EF1DAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maggiezirnhelt.ESFPlaygroundVisualizerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ESFPlaygroundVisualizerGame;
+			};
+			name = Debug;
+		};
+		A1852BD8292A93CB00EF1DAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maggiezirnhelt.ESFPlaygroundVisualizerGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ESFPlaygroundVisualizerGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1852BA0292A93C700EF1DAD /* Build configuration list for PBXProject "ESFPlaygroundVisualizerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1852BCE292A93CB00EF1DAD /* Debug */,
+				A1852BCF292A93CB00EF1DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1852BD0292A93CB00EF1DAD /* Build configuration list for PBXNativeTarget "ESFPlaygroundVisualizerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1852BD1292A93CB00EF1DAD /* Debug */,
+				A1852BD2292A93CB00EF1DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1852BD3292A93CB00EF1DAD /* Build configuration list for PBXNativeTarget "ESFPlaygroundVisualizerGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1852BD4292A93CB00EF1DAD /* Debug */,
+				A1852BD5292A93CB00EF1DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1852BD6292A93CB00EF1DAD /* Build configuration list for PBXNativeTarget "ESFPlaygroundVisualizerGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1852BD7292A93CB00EF1DAD /* Debug */,
+				A1852BD8292A93CB00EF1DAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1852B9D292A93C700EF1DAD /* Project object */;
+}
