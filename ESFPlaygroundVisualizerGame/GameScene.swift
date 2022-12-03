@@ -29,8 +29,8 @@ class GameScene: SKScene {
     // MARK: Tree
     
     public func treeView() {
-        let treeScene = TreeGameScene()
-        let tree = treeScene.setupTree()
+//        let tree = treeScene.setupTree()
+        let tree = ProcessTreeFactory.makeTree(nodesCount: 7)
 
         guard let root = tree.root else { return }
         for node in root.children {
