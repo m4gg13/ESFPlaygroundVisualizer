@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13AEB64293BB5C600436F4C /* GameSceneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13AEB63293BB5C600436F4C /* GameSceneTests.swift */; };
 		A1852BA9292A93C700EF1DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1852BA8292A93C700EF1DAD /* AppDelegate.swift */; };
 		A1852BAB292A93C700EF1DAD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1852BAA292A93C700EF1DAD /* GameScene.sks */; };
 		A1852BAD292A93C700EF1DAD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A1852BAC292A93C700EF1DAD /* Actions.sks */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A13AEB63293BB5C600436F4C /* GameSceneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneTests.swift; sourceTree = "<group>"; };
 		A1852BA5292A93C700EF1DAD /* ESFPlaygroundVisualizerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESFPlaygroundVisualizerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1852BA8292A93C700EF1DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1852BAA292A93C700EF1DAD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				A1852BE3292B21BD00EF1DAD /* StructureTests */,
 				A1852BC0292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift */,
+				A13AEB63293BB5C600436F4C /* GameSceneTests.swift */,
 			);
 			path = ESFPlaygroundVisualizerGameTests;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			files = (
 				A1852BE7292B25B100EF1DAD /* TreeTests.swift in Sources */,
 				A1852BE5292B21D600EF1DAD /* LinkedListTests.swift in Sources */,
+				A13AEB64293BB5C600436F4C /* GameSceneTests.swift in Sources */,
 				A1852BC1292A93CB00EF1DAD /* ESFPlaygroundVisualizerGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
