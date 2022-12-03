@@ -62,7 +62,12 @@ class GameScene: SKScene {
         return sprite
     }
     
-    func setArrow(from: SKSpriteNode, to: SKSpriteNode) {
-        
+    func setArrow(from parent: SKSpriteNode, to child: SKSpriteNode) {
+        let arrow = SKSpriteNode(imageNamed: "rightArrow")
+        arrow.size = CGSize(width: 30, height: 10)
+        let y = parent.position.y + child.position.y
+        arrow.position = CGPoint(x: parent.position.x + 55,
+                                 y: y)
+        addChild(arrow)
     }
 }
